@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="connect.php" style= "color:darkgreen">
+<table width="308" border="1" align="center" bordercolor="#990000" bgcolor="#FFCC33">
+
+
+<tr>
+	<th>Username</th>
+	<td> <label><input type="text" required name="a"/></label></td>
+</tr>
+	<tr>
+	<th>password</th>
+	<td> <label><input type="text" required name="b"/></label></td>
+</tr>
+<tr>
+	<th>Fullname</th>
+	<td> <label><input type="text" required name="c"/></label></td>
+</tr>
+<tr>
+	<th>mobile</th>
+	<td> <label><input type="text" pattern="[0-9]{10}" on KeyUp="num(this)" title="ENTER 10DIGIT ONLY" required name="d"/></label></td>
+</tr>
+<tr>
+	<th>Email</th>
+	<td> <label><input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\[a-z]{2,4}$" title="xyz@something.com"required name="e"/></label></td>
+</tr>
+<tr>
+	<td>&nbsp; </td>
+	<td> <label><input type="submit"  name="submit" value="register"/></label></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
